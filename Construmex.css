@@ -1,0 +1,22 @@
+:root {
+    --bg-color:#CD5C5C;
+    --primary-color: #FA8072;
+    --secondary-color: #f3ef10 ;
+    --hg-color:   #ffc100; 
+    background-color: var(--bg-color);
+    color: var(--hg-color);
+    width: 100;
+    height: 150;
+    margin: 20px;}
+
+    h1{font-size: large; font-family: 'Times New Roman', Times, serif; color: #ffc100; background-color: #CD5C5C;}
+    h2{font-size: small; font-family: Verdana, Geneva, Tahoma, sans-serif; color: #ffc100; background-color: #CD5C5C;}
+p{color: #ffc100; background-color: #CD5C5C; font-size: medium; font-family: cursive;}
+
+    @media (max-width: 750px) {
+        h1, h2{
+            text-align: center;
+        }
+      }
+
+    
